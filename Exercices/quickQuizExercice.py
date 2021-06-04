@@ -54,7 +54,9 @@ if "refresh" in message:
 
     result = browser.find_element_by_tag_name('pre')
     print(result.text)
+    browser.quit()
 
 else:
     result = browser.find_element_by_tag_name('pre')
     print(result.text)
+    browser.quit()
